@@ -1,5 +1,4 @@
-const SlotLoading = (props) => {
-  const a = "wewo";
+const SlotLoading = () => {
   return <div>Root is loading</div>;
 };
 

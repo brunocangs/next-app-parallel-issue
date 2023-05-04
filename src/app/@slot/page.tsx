@@ -10,6 +10,7 @@ const SlotPage = async () => {
       <TestClient />
       <TestServer />
       <Suspense fallback="Loading...">
+        {/* @ts-ignore */}
         <TestServerAsync />
       </Suspense>
     </aside>
