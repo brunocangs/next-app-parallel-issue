@@ -12,7 +12,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{ display: "flex" }}>
+      <body style={{ display: "flex", gap: 12 }}>
+        <div>This is from layout</div>
         {slot}
         {secondSlot}
       </body>
